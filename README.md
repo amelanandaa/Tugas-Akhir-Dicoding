@@ -1,10 +1,13 @@
 # Dashboard E-commerce
 ## Setup environment
-`code pip install streamlit babel`
+
+```
+python -m venv vir_bangkit
+vir_bangkit\Scripts\activate
+pip install pandas numpy matplotlib seaborn streamlit babel
+```
 
 ## Run stemlit app
-Kode ini jika streamlit dijalankan melalui Google Collab
-
-`!streamlit run dashboard.py & npx localtunnel --port 8501`
+`streamlit run dashboard.py`
 
 
